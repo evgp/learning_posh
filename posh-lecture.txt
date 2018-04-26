@@ -1,0 +1,39 @@
+Standart veriables:
+$null
+$true
+$false
+$_ - this variable stores data under current context
+
+$var.GetType()
+
+$var = @(<Element>, <Element>, ...)
+<Array>[index]
+
+$var = @{<key> = <value>; ...} - hash-table
+<hashtable>[key]
+$hashtable.key
+
+$uninitialized -eq $null
+
+cls - clears the screen
+
+if () {
+
+} elseif () {
+
+} else {
+
+}
+
+
+Switch () {
+    <Expression> {
+        code; break //exit from switch and do not go ahead
+    }
+    ...
+    Default { code }
+}
+
+
+
+
